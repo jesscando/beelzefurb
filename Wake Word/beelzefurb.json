@@ -1,0 +1,13 @@
+{
+  "type": "micro_wake_word_model",
+  "wake_word": "beelzefurb",
+  "version": 1,
+  "micro": {
+    "model_tflite": {
+      "url": "https://github.com/jesscando/beelzefurb/blob/main/Wake%20Word/beelzefurb.tflite"
+    },
+    "sliding_window_size": 10,
+    "probability_cutoff": 0.5,
+    "tensor_arena_size": 45000
+  }
+}
