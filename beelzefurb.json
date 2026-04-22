@@ -4,7 +4,7 @@
   "version": 1,
   "micro": {
     "model_tflite": {
-      "url": "https://github.com/jesscando/beelzefurb/blob/main/Wake%20Word/beelzefurb.tflite"
+      "url": "https://github.com/jesscando/beelzefurb/blob/main/beelzefurb.tflite"
     },
     "sliding_window_size": 10,
     "probability_cutoff": 0.5,
