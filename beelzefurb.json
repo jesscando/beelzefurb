@@ -1,11 +1,12 @@
 {
   "type": "micro_wake_word_model",
   "wake_word": "beelzefurb",
-  "version": 1,
-  "model": {
-    "url": "https://raw.githubusercontent.com/jesscando/beelzefurb/main/beelzefurb.tflite",
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.50,
+    "feature_step_size": 10,
     "sliding_window_size": 10,
-    "probability_cutoff": 0.5,
-    "tensor_arena_size": 45000
+    "tensor_arena_size": 45000,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
