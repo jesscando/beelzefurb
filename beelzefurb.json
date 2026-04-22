@@ -4,7 +4,7 @@
   "version": 1,
   "micro": {
     "model_tflite": {
-      "url": "https://github.com/jesscando/beelzefurb/blob/main/beelzefurb.tflite"
+      "url": "https://raw.githubusercontent.com/jesscando/beelzefurb/main/beelzefurb.tflite"
     },
     "sliding_window_size": 10,
     "probability_cutoff": 0.5,
